@@ -1,0 +1,153 @@
+/* Glimpse - Français */
+
+/* MARK: Menu bar */
+"menu.take_screenshot"        = "Capture d'écran";
+"menu.record_screen"          = "Enregistrer l'écran";
+"menu.stop_recording"         = "Arrêter l'enregistrement";
+"menu.cancel_recording"       = "Annuler l'enregistrement";
+"menu.open_app"               = "Ouvrir Glimpse";
+"menu.preferences"            = "Réglages…";
+"menu.about"                  = "À propos de Glimpse";
+"menu.quit_app"               = "Quitter Glimpse";
+"menu.quit"                   = "Quitter";
+"menu.main"                   = "Menu principal";
+
+/* MARK: Capture modes */
+"mode.normal"                 = "Normal";
+"mode.normal.help"            = "Enregistrer un écran ou une fenêtre";
+"mode.selection"              = "Sélection";
+"mode.selection.help"         = "Enregistrer une partie de l'écran";
+
+/* MARK: Audio / pointer switches */
+"toggle.desktop_audio.enable"  = "Activer le son du système";
+"toggle.desktop_audio.disable" = "Désactiver le son du système";
+"toggle.microphone.enable"     = "Activer le micro";
+"toggle.microphone.disable"    = "Désactiver le micro";
+"toggle.microphone.locked"     = "Activez le micro avant de démarrer pour pouvoir l'utiliser ici";
+"toggle.pointer.show"          = "Afficher le pointeur";
+"toggle.pointer.hide"          = "Masquer le pointeur";
+
+/* MARK: Main window */
+"main.record"                 = "Enregistrer";
+"main.cancel"                 = "Annuler";
+"main.stop"                   = "Arrêter";
+"main.start_recording.help"   = "Démarrer l'enregistrement";
+"main.stop_recording.help"    = "Arrêter l'enregistrement";
+"main.recording_in"           = "Enregistrement dans…";
+"main.recording"              = "Enregistrement en cours";
+"main.flushing"               = "Finalisation…";
+"main.screenshot.help"        = "Faire une capture d'écran (%@)";
+"main.profile"                = "%1$@ • %2$d FPS";
+"window.main.title"           = "Glimpse";
+"window.preferences.title"    = "Réglages";
+"alert.capture_failed"        = "Échec de la capture";
+"error.folder_unavailable"    = "Impossible d'ouvrir le dossier. Il se trouve peut-être sur un disque qui n'est plus connecté. Choisissez-en un autre dans les réglages.";
+"key.space"                   = "Espace";
+"common.ok"                   = "OK";
+"common.close"                = "Fermer";
+
+/* MARK: Capture overlay */
+"snip.rectangle"              = "Rectangle";
+"snip.window"                 = "Fenêtre";
+"snip.fullscreen"             = "Plein écran";
+"snip.photo"                  = "Capture";
+"snip.video"                  = "Enregistrer";
+"overlay.hint.rectangle"      = "Faites glisser pour sélectionner une zone, puis appuyez sur Retour";
+"overlay.hint.record_area"    = "Faites glisser pour sélectionner la zone à enregistrer";
+"overlay.hint.window"         = "Cliquez sur une fenêtre, ou survolez-la et appuyez sur Retour";
+"overlay.hint.fullscreen"     = "Cliquez pour capturer cet écran, ou appuyez sur Retour";
+"overlay.hint.escape"         = "Échap pour annuler";
+"overlay.hint.format"         = "%1$@  ·  %2$@";
+"overlay.delay.help"          = "Délai avant la capture";
+"overlay.delay.none"          = "Aucun délai";
+"overlay.delay.seconds"       = "%d secondes";
+"overlay.capture"             = "Capturer";
+"overlay.capture.help"        = "Faire la capture (Retour)";
+"overlay.record.help"         = "Démarrer l'enregistrement (Retour)";
+"overlay.select_area"         = "Sélectionnez la zone à enregistrer";
+"overlay.cancel.help"         = "Annuler (Échap)";
+
+/* MARK: Recording HUD */
+"hud.recording_in"            = "Enregistrement dans %d";
+"hud.cancel"                  = "Annuler";
+"hud.saving"                  = "Sauvegarde…";
+"hud.stop"                    = "Arrêter";
+"hud.stop.help"               = "Arrêter l'enregistrement (%@)";
+
+/* MARK: Capture preview */
+"preview.screenshot_saved"    = "Capture d'écran sauvegardée";
+"preview.recording_saved"     = "Enregistrement d'écran sauvegardé";
+"preview.size"                = "%1$d × %2$d";
+"preview.size_copied"         = "%1$d × %2$d, copié dans le presse-papiers";
+"preview.open"                = "Ouvrir";
+"preview.show_in_finder"      = "Afficher dans le Finder";
+
+/* MARK: Preferences */
+"prefs.general"               = "Général";
+"prefs.delay_seconds"         = "Délai (secondes)";
+"prefs.recordings_folder"     = "Dossier des enregistrements";
+"prefs.screenshots_folder"    = "Dossier des captures d'écran";
+"prefs.show_preview"          = "Afficher un aperçu après la capture";
+"prefs.choose"                = "Choisir…";
+
+"prefs.language"              = "Langue";
+"prefs.language.picker"       = "Langue de l'interface";
+"prefs.language.system"       = "Langue du système";
+"prefs.language.footer"       = "Le changement de langue prend effet au prochain démarrage de l'app.";
+"prefs.language.restart"      = "Redémarrer maintenant";
+
+"prefs.audio"                 = "Audio";
+"prefs.echo_cancellation"     = "Annulation d'écho pour le micro";
+"prefs.echo_cancellation.footer" = "Utilise le processeur vocal du système pour que le son des haut-parleurs ne soit pas capté à nouveau par le micro. S'applique si le micro est activé au démarrage de l'enregistrement ; coûte environ 10 % de CPU pendant l'enregistrement.";
+
+"prefs.video"                 = "Vidéo";
+"prefs.format"                = "Format";
+"prefs.quality"               = "Qualité";
+"prefs.quality.high"          = "Élevée";
+"prefs.quality.balanced"      = "Équilibrée";
+"prefs.quality.small"         = "Fichiers légers";
+"prefs.quality.footer"        = "Le contenu d'écran se compresse bien : Équilibrée est presque indiscernable d'Élevée et environ un tiers plus légère. À qualité égale, HEVC est plus léger que H.264.";
+"prefs.frame_rate"            = "Fréquence d'images";
+"prefs.fps"                   = "%d FPS";
+
+"prefs.screenshots"           = "Captures d'écran";
+"prefs.copy_clipboard"        = "Copier dans le presse-papiers";
+"prefs.include_pointer"       = "Inclure le pointeur";
+"prefs.shutter_sound"         = "Jouer le son de l'obturateur";
+
+"prefs.shortcuts"             = "Raccourcis clavier";
+"prefs.shortcut.screenshot"   = "Capture d'écran";
+"prefs.shortcut.record"       = "Démarrer / arrêter l'enregistrement";
+"prefs.shortcut.press_keys"   = "Appuyez sur les touches…";
+"prefs.shortcut.unavailable"  = "Une autre app utilise déjà ce raccourci, il ne fonctionnera pas";
+"prefs.shortcut.needs_modifier" = "Ajoutez ⌘, ⌃ ou ⌥. Une touche seule, ou avec ⇧ uniquement, serait interceptée dans toutes les apps.";
+"prefs.shortcuts.footer"      = "Pour reprendre ⌘⇧3 / ⌘⇧4 / ⌘⇧5, désactivez d'abord les raccourcis système dans Réglages Système → Clavier → Raccourcis clavier → Captures d'écran.";
+
+/* MARK: Permissions */
+"perm.screen.title"           = "Autorisation d'enregistrement de l'écran requise";
+"perm.screen.body"            = "Autorisez Glimpse dans Réglages Système → Confidentialité et sécurité → Enregistrement de l'écran et de l'audio du système. macOS n'applique le changement qu'après la réouverture de l'app.";
+"perm.open_settings"          = "Ouvrir Réglages Système";
+"perm.relaunch"               = "Relancer l'app";
+"perm.cancel"                 = "Annuler";
+
+/* MARK: Errors */
+"error.display_not_found"     = "Impossible de trouver l'écran à capturer.";
+"error.screenshot_save"       = "Impossible d'écrire le fichier de la capture d'écran.";
+"error.already_running"       = "Un enregistrement est déjà en cours.";
+"error.cancelled"             = "Enregistrement annulé.";
+"error.stopped_by_system"     = "L'enregistrement a été arrêté par le système.";
+"error.writer_failed"         = "Impossible d'écrire l'enregistrement : %@";
+"error.no_microphone"         = "Aucune entrée micro disponible.";
+
+/* MARK: Pause, folders, save destination */
+"recording.pause"             = "Pause";
+"recording.resume"            = "Reprendre";
+"recording.paused"            = "En pause";
+"menu.pause_recording"        = "Suspendre l'enregistrement";
+"menu.resume_recording"       = "Reprendre l'enregistrement";
+"menu.open_recordings"        = "Ouvrir le dossier des enregistrements";
+"menu.open_screenshots"       = "Ouvrir le dossier des captures d'écran";
+"prefs.ask_where_to_save"     = "Demander où enregistrer";
+"prefs.ask_where_to_save.footer" = "Une capture d'écran demande avant d'être écrite : annuler la supprime, sauf si « Copier dans le presse-papiers » est activé. Un enregistrement est écrit dans le dossier des enregistrements pendant qu'il tourne, puis on vous demande où le déplacer une fois terminé ; annuler le laisse sur place.";
+"preview.recording_salvaged"  = "Enregistrement interrompu, sauvegardé";
+"prefs.shortcut.change"       = "Modifier le raccourci";

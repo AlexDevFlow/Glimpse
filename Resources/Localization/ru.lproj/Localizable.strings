@@ -1,0 +1,153 @@
+/* Glimpse - Русский */
+
+/* MARK: Menu bar */
+"menu.take_screenshot"        = "Сделать снимок экрана";
+"menu.record_screen"          = "Записать экран";
+"menu.stop_recording"         = "Остановить запись";
+"menu.cancel_recording"       = "Отменить запись";
+"menu.open_app"               = "Открыть Glimpse";
+"menu.preferences"            = "Настройки…";
+"menu.about"                  = "О программе Glimpse";
+"menu.quit_app"               = "Завершить Glimpse";
+"menu.quit"                   = "Завершить";
+"menu.main"                   = "Главное меню";
+
+/* MARK: Capture modes */
+"mode.normal"                 = "Обычный";
+"mode.normal.help"            = "Записать экран или окно";
+"mode.selection"              = "Выделение";
+"mode.selection.help"         = "Записать выбранную часть экрана";
+
+/* MARK: Audio / pointer switches */
+"toggle.desktop_audio.enable"  = "Включить звук системы";
+"toggle.desktop_audio.disable" = "Выключить звук системы";
+"toggle.microphone.enable"     = "Включить микрофон";
+"toggle.microphone.disable"    = "Выключить микрофон";
+"toggle.microphone.locked"     = "Включите микрофон до начала записи, чтобы управлять им отсюда";
+"toggle.pointer.show"         = "Показать указатель";
+"toggle.pointer.hide"         = "Скрыть указатель";
+
+/* MARK: Main window */
+"main.record"                 = "Запись";
+"main.cancel"                 = "Отменить";
+"main.stop"                   = "Стоп";
+"main.start_recording.help"   = "Начать запись";
+"main.stop_recording.help"    = "Остановить запись";
+"main.recording_in"           = "Запись через…";
+"main.recording"              = "Идёт запись";
+"main.flushing"               = "Сохранение…";
+"main.screenshot.help"        = "Сделать снимок экрана (%@)";
+"main.profile"                = "%1$@ • %2$d FPS";
+"window.main.title"           = "Glimpse";
+"window.preferences.title"    = "Настройки";
+"alert.capture_failed"        = "Ошибка захвата";
+"error.folder_unavailable" = "Не удалось открыть папку. Возможно, она находится на отключённом диске. Выберите другую в настройках.";
+"key.space"                   = "Пробел";
+"common.ok"                   = "OK";
+"common.close"                = "Закрыть";
+
+/* MARK: Capture overlay */
+"snip.rectangle"              = "Прямоугольник";
+"snip.window"                 = "Окно";
+"snip.fullscreen"             = "Весь экран";
+"snip.photo"                  = "Снимок";
+"snip.video"                  = "Запись";
+"overlay.hint.rectangle"      = "Выделите область мышью и нажмите Return";
+"overlay.hint.record_area"    = "Выделите область, которую нужно записать";
+"overlay.hint.window"         = "Нажмите на окно или наведите на него указатель и нажмите Return";
+"overlay.hint.fullscreen"     = "Нажмите, чтобы снять этот экран, или нажмите Return";
+"overlay.hint.escape"         = "Esc, отмена";
+"overlay.hint.format"         = "%1$@  ·  %2$@";
+"overlay.delay.help"          = "Задержка перед съёмкой";
+"overlay.delay.none"          = "Без задержки";
+"overlay.delay.seconds"       = "%d с";
+"overlay.capture"             = "Снять";
+"overlay.capture.help"        = "Сделать снимок (Return)";
+"overlay.record.help"         = "Начать запись (Return)";
+"overlay.select_area"         = "Выберите область для записи";
+"overlay.cancel.help"         = "Отмена (Esc)";
+
+/* MARK: Recording HUD */
+"hud.recording_in"            = "Запись через %d";
+"hud.cancel"                  = "Отменить";
+"hud.saving"                  = "Сохранение…";
+"hud.stop"                    = "Стоп";
+"hud.stop.help"               = "Остановить запись (%@)";
+
+/* MARK: Capture preview */
+"preview.screenshot_saved"    = "Снимок сохранён";
+"preview.recording_saved"     = "Запись экрана сохранена";
+"preview.size"                = "%1$d × %2$d";
+"preview.size_copied"         = "%1$d × %2$d, скопировано в буфер обмена";
+"preview.open"                = "Открыть";
+"preview.show_in_finder"      = "Показать в Finder";
+
+/* MARK: Preferences */
+"prefs.general"               = "Основные";
+"prefs.delay_seconds"         = "Задержка (секунды)";
+"prefs.recordings_folder"     = "Папка для записей";
+"prefs.screenshots_folder"    = "Папка для снимков";
+"prefs.show_preview"          = "Показывать предпросмотр после съёмки";
+"prefs.choose"                = "Выбрать…";
+
+"prefs.language"              = "Язык";
+"prefs.language.picker"       = "Язык интерфейса";
+"prefs.language.system"       = "Язык системы";
+"prefs.language.footer"       = "Новый язык применяется после перезапуска программы.";
+"prefs.language.restart"      = "Перезапустить";
+
+"prefs.audio"                 = "Звук";
+"prefs.echo_cancellation"     = "Подавление эха для микрофона";
+"prefs.echo_cancellation.footer" = "Использует системный обработчик голоса, чтобы звук из динамиков не попадал в микрофон второй раз. Действует, если микрофон включён в момент начала записи; во время записи занимает около 10% процессора.";
+
+"prefs.video"                 = "Видео";
+"prefs.format"                = "Формат";
+"prefs.quality" = "Качество";
+"prefs.quality.high" = "Высокое";
+"prefs.quality.balanced" = "Сбалансированное";
+"prefs.quality.small" = "Малый размер";
+"prefs.quality.footer" = "Содержимое экрана хорошо сжимается: «Сбалансированное» почти неотличимо от «Высокого» и примерно на треть легче. При равном качестве HEVC ещё легче, чем H.264.";
+"prefs.frame_rate"            = "Частота кадров";
+"prefs.fps"                   = "%d FPS";
+
+"prefs.screenshots"           = "Снимки экрана";
+"prefs.copy_clipboard"        = "Копировать в буфер обмена";
+"prefs.include_pointer"       = "Показывать указатель";
+"prefs.shutter_sound"         = "Звук затвора";
+
+"prefs.shortcuts"             = "Сочетания клавиш";
+"prefs.shortcut.screenshot"   = "Снимок экрана";
+"prefs.shortcut.record"       = "Начать / остановить запись";
+"prefs.shortcut.press_keys"   = "Нажмите клавиши…";
+"prefs.shortcut.unavailable"  = "Это сочетание уже занято другой программой и работать не будет";
+"prefs.shortcut.needs_modifier" = "Добавьте ⌘, ⌃ или ⌥. Одна клавиша или только с ⇧ будет перехватываться во всех приложениях.";
+"prefs.shortcuts.footer"      = "Чтобы занять ⌘⇧3 / ⌘⇧4 / ⌘⇧5, сначала отключите системные сочетания в Системных настройках → Клавиатура → Сочетания клавиш → Снимки экрана.";
+
+/* MARK: Permissions */
+"perm.screen.title"           = "Нужно разрешение на запись экрана";
+"perm.screen.body"            = "Разрешите Glimpse в Системных настройках → Конфиденциальность и безопасность → Запись экрана и системного звука. macOS применяет изменение только после повторного запуска программы.";
+"perm.open_settings"          = "Открыть Системные настройки";
+"perm.relaunch"               = "Перезапустить программу";
+"perm.cancel"                 = "Отмена";
+
+/* MARK: Errors */
+"error.display_not_found"     = "Не удалось найти экран для съёмки.";
+"error.screenshot_save"       = "Не удалось записать файл снимка.";
+"error.already_running"       = "Запись уже идёт.";
+"error.cancelled"             = "Запись отменена.";
+"error.stopped_by_system"     = "Запись остановлена системой.";
+"error.writer_failed"         = "Не удалось записать файл: %@";
+"error.no_microphone"         = "Нет доступного входа микрофона.";
+
+/* MARK: Pause, folders, save destination */
+"recording.pause" = "Пауза";
+"recording.resume" = "Продолжить";
+"recording.paused" = "Пауза";
+"menu.pause_recording" = "Приостановить запись";
+"menu.resume_recording" = "Продолжить запись";
+"menu.open_recordings" = "Открыть папку записей";
+"menu.open_screenshots" = "Открыть папку снимков";
+"prefs.ask_where_to_save" = "Спрашивать, куда сохранять";
+"prefs.ask_where_to_save.footer" = "Снимок спрашивает до записи на диск, поэтому при отмене он теряется, если не включено «Копировать в буфер обмена». Запись пишется в папку записей по ходу дела, а по окончании спрашивается, куда её перенести; при отмене она остаётся на месте.";
+"preview.recording_salvaged" = "Запись прервана, сохранена";
+"prefs.shortcut.change" = "Изменить сочетание";

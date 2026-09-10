@@ -1,0 +1,153 @@
+/* Glimpse - Deutsch */
+
+/* MARK: Menu bar */
+"menu.take_screenshot"        = "Bildschirmfoto aufnehmen";
+"menu.record_screen"          = "Bildschirm aufnehmen";
+"menu.stop_recording"         = "Aufnahme stoppen";
+"menu.cancel_recording"       = "Aufnahme abbrechen";
+"menu.open_app"               = "Glimpse öffnen";
+"menu.preferences"            = "Einstellungen…";
+"menu.about"                  = "Über Glimpse";
+"menu.quit_app"               = "Glimpse beenden";
+"menu.quit"                   = "Beenden";
+"menu.main"                   = "Hauptmenü";
+
+/* MARK: Capture modes */
+"mode.normal"                 = "Normal";
+"mode.normal.help"            = "Einen Bildschirm oder ein Fenster aufnehmen";
+"mode.selection"              = "Auswahl";
+"mode.selection.help"         = "Einen Ausschnitt des Bildschirms aufnehmen";
+
+/* MARK: Audio / pointer switches */
+"toggle.desktop_audio.enable"  = "Systemton einschalten";
+"toggle.desktop_audio.disable" = "Systemton ausschalten";
+"toggle.microphone.enable"     = "Mikrofon einschalten";
+"toggle.microphone.disable"    = "Mikrofon ausschalten";
+"toggle.microphone.locked"     = "Schalte das Mikrofon vor dem Start ein, um es hier verwenden zu können";
+"toggle.pointer.show"          = "Zeiger einblenden";
+"toggle.pointer.hide"          = "Zeiger ausblenden";
+
+/* MARK: Main window */
+"main.record"                 = "Aufnehmen";
+"main.cancel"                 = "Abbrechen";
+"main.stop"                   = "Stopp";
+"main.start_recording.help"   = "Aufnahme starten";
+"main.stop_recording.help"    = "Aufnahme stoppen";
+"main.recording_in"           = "Aufnahme in…";
+"main.recording"              = "Aufnahme";
+"main.flushing"               = "Wird gesichert…";
+"main.screenshot.help"        = "Bildschirmfoto aufnehmen (%@)";
+"main.profile"                = "%1$@ • %2$d FPS";
+"window.main.title"           = "Glimpse";
+"window.preferences.title"    = "Einstellungen";
+"alert.capture_failed"        = "Aufnahme fehlgeschlagen";
+"error.folder_unavailable" = "Der Ordner konnte nicht geöffnet werden. Er liegt möglicherweise auf einem nicht mehr verbundenen Volume. Wähle in den Einstellungen einen anderen.";
+"key.space"                   = "Leertaste";
+"common.ok"                   = "OK";
+"common.close"                = "Schließen";
+
+/* MARK: Capture overlay */
+"snip.rectangle"              = "Rechteck";
+"snip.window"                 = "Fenster";
+"snip.fullscreen"             = "Ganzer Bildschirm";
+"snip.photo"                  = "Bildschirmfoto";
+"snip.video"                  = "Aufnehmen";
+"overlay.hint.rectangle"      = "Ziehe einen Bereich auf und drücke dann die Eingabetaste";
+"overlay.hint.record_area"    = "Ziehe den Bereich auf, der aufgenommen werden soll";
+"overlay.hint.window"         = "Klicke ein Fenster an, oder zeige darauf und drücke die Eingabetaste";
+"overlay.hint.fullscreen"     = "Klicke, um diesen Bildschirm aufzunehmen, oder drücke die Eingabetaste";
+"overlay.hint.escape"         = "Esc zum Abbrechen";
+"overlay.hint.format"         = "%1$@  ·  %2$@";
+"overlay.delay.help"          = "Verzögerung vor der Aufnahme";
+"overlay.delay.none"          = "Keine Verzögerung";
+"overlay.delay.seconds"       = "%d Sekunden";
+"overlay.capture"             = "Aufnehmen";
+"overlay.capture.help"        = "Bildschirmfoto aufnehmen (Eingabetaste)";
+"overlay.record.help"         = "Aufnahme starten (Eingabetaste)";
+"overlay.select_area"         = "Wähle den Bereich für die Aufnahme";
+"overlay.cancel.help"         = "Abbrechen (Esc)";
+
+/* MARK: Recording HUD */
+"hud.recording_in"            = "Aufnahme in %d";
+"hud.cancel"                  = "Abbrechen";
+"hud.saving"                  = "Wird gesichert…";
+"hud.stop"                    = "Stopp";
+"hud.stop.help"               = "Aufnahme stoppen (%@)";
+
+/* MARK: Capture preview */
+"preview.screenshot_saved"    = "Bildschirmfoto gesichert";
+"preview.recording_saved"     = "Bildschirmaufnahme gesichert";
+"preview.size"                = "%1$d × %2$d";
+"preview.size_copied"         = "%1$d × %2$d, in die Zwischenablage kopiert";
+"preview.open"                = "Öffnen";
+"preview.show_in_finder"      = "Im Finder zeigen";
+
+/* MARK: Preferences */
+"prefs.general"               = "Allgemein";
+"prefs.delay_seconds"         = "Verzögerung (Sekunden)";
+"prefs.recordings_folder"     = "Ordner für Aufnahmen";
+"prefs.screenshots_folder"    = "Ordner für Bildschirmfotos";
+"prefs.show_preview"          = "Vorschau nach der Aufnahme zeigen";
+"prefs.choose"                = "Auswählen…";
+
+"prefs.language"              = "Sprache";
+"prefs.language.picker"       = "Sprache der Oberfläche";
+"prefs.language.system"       = "Systemsprache";
+"prefs.language.footer"       = "Die neue Sprache gilt nach einem Neustart der App.";
+"prefs.language.restart"      = "Jetzt neu starten";
+
+"prefs.audio"                 = "Audio";
+"prefs.echo_cancellation"     = "Echounterdrückung für das Mikrofon";
+"prefs.echo_cancellation.footer" = "Nutzt den Sprachprozessor des Systems, damit der Ton aus den Lautsprechern nicht noch einmal vom Mikrofon aufgenommen wird. Gilt, wenn das Mikrofon zu Beginn der Aufnahme eingeschaltet ist; kostet während der Aufnahme rund 10 % CPU.";
+
+"prefs.video"                 = "Video";
+"prefs.format"                = "Format";
+"prefs.quality" = "Qualität";
+"prefs.quality.high" = "Hoch";
+"prefs.quality.balanced" = "Ausgewogen";
+"prefs.quality.small" = "Kleine Dateien";
+"prefs.quality.footer" = "Bildschirminhalte lassen sich gut komprimieren: Ausgewogen ist von Hoch kaum zu unterscheiden und etwa ein Drittel kleiner. Bei gleicher Qualität ist HEVC noch kleiner als H.264.";
+"prefs.frame_rate"            = "Bildrate";
+"prefs.fps"                   = "%d FPS";
+
+"prefs.screenshots"           = "Bildschirmfotos";
+"prefs.copy_clipboard"        = "In die Zwischenablage kopieren";
+"prefs.include_pointer"       = "Zeiger einbeziehen";
+"prefs.shutter_sound"         = "Auslöserton abspielen";
+
+"prefs.shortcuts"             = "Tastaturkurzbefehle";
+"prefs.shortcut.screenshot"   = "Bildschirmfoto aufnehmen";
+"prefs.shortcut.record"       = "Aufnahme starten / stoppen";
+"prefs.shortcut.press_keys"   = "Tasten drücken…";
+"prefs.shortcut.unavailable"  = "Eine andere App belegt diesen Kurzbefehl bereits, er wird nicht funktionieren";
+"prefs.shortcut.needs_modifier" = "Füge ⌘, ⌃ oder ⌥ hinzu. Eine Taste allein oder nur mit ⇧ würde in jeder App abgefangen.";
+"prefs.shortcuts.footer"      = "Um ⌘⇧3 / ⌘⇧4 / ⌘⇧5 zu übernehmen, schalte zuerst die Systemkurzbefehle unter Systemeinstellungen → Tastatur → Tastaturkurzbefehle → Bildschirmfotos aus.";
+
+/* MARK: Permissions */
+"perm.screen.title"           = "Berechtigung zur Bildschirmaufnahme erforderlich";
+"perm.screen.body"            = "Erlaube Glimpse unter Systemeinstellungen → Datenschutz & Sicherheit → Aufnahme von Bildschirm & Systemaudio. macOS übernimmt die Änderung erst, nachdem die App neu geöffnet wurde.";
+"perm.open_settings"          = "Systemeinstellungen öffnen";
+"perm.relaunch"               = "App neu starten";
+"perm.cancel"                 = "Abbrechen";
+
+/* MARK: Errors */
+"error.display_not_found"     = "Der aufzunehmende Bildschirm wurde nicht gefunden.";
+"error.screenshot_save"       = "Die Bildschirmfoto-Datei konnte nicht geschrieben werden.";
+"error.already_running"       = "Es läuft bereits eine Aufnahme.";
+"error.cancelled"             = "Aufnahme abgebrochen.";
+"error.stopped_by_system"     = "Die Aufnahme wurde vom System gestoppt.";
+"error.writer_failed"         = "Die Aufnahme konnte nicht geschrieben werden: %@";
+"error.no_microphone"         = "Kein Mikrofoneingang verfügbar.";
+
+/* MARK: Pause, folders, save destination */
+"recording.pause" = "Pause";
+"recording.resume" = "Fortsetzen";
+"recording.paused" = "Pausiert";
+"menu.pause_recording" = "Aufnahme pausieren";
+"menu.resume_recording" = "Aufnahme fortsetzen";
+"menu.open_recordings" = "Ordner für Aufnahmen öffnen";
+"menu.open_screenshots" = "Ordner für Bildschirmfotos öffnen";
+"prefs.ask_where_to_save" = "Fragen, wohin gesichert wird";
+"prefs.ask_where_to_save.footer" = "Ein Bildschirmfoto fragt, bevor es geschrieben wird: beim Abbrechen geht es verloren, sofern nicht „In die Zwischenablage kopieren“ eingeschaltet ist. Eine Aufnahme wird während der Aufzeichnung in den Ordner für Aufnahmen geschrieben, und am Ende wirst du gefragt, wohin sie verschoben werden soll; beim Abbrechen bleibt sie dort.";
+"preview.recording_salvaged" = "Aufnahme vorzeitig beendet, gesichert";
+"prefs.shortcut.change" = "Kurzbefehl ändern";

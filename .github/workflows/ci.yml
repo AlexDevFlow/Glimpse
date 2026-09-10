@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+# CI only reads the tree. The account default happens to be read today, but that
+# is a setting outside this repo; say it here so it cannot drift.
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Swift version
+        run: swift --version
+
+      - name: Check translations
+        run: make check
+
+      - name: Unit tests
+        run: make test
+
+      # Universal, so a break in the x86_64 cross-build shows up here and not in
+      # the release job. The archive rather than the bundle: upload-artifact
+      # strips the common prefix, so uploading Glimpse.app yields a zip with
+      # Contents/ at its root, which will not launch.
+      - name: Build release archive
+        run: make zip
+
+      # This regression has already shipped once: an unstripped binary carries a
+      # debug map naming the absolute build directory of whoever compiled it, and
+      # `make zip` is a documented local release path. Nothing else in the build
+      # would have noticed.
+      - name: No build paths in the binary
+        run: |
+          count=$(nm -pa build/Glimpse.app/Contents/MacOS/Glimpse | grep -cE ' (OSO|SO) ' || true)
+          if [ "$count" != "0" ]; then
+            echo "::error::binary carries $count debug-map entries; the strip step did not run"
+            exit 1
+          fi
+          if strings -a build/Glimpse.app/Contents/MacOS/Glimpse | grep -qE '/(Users|home)/[^/]+/'; then
+            echo "::error::binary contains an absolute home directory path"
+            exit 1
+          fi
+          echo "clean"
+
+      - name: Upload unsigned app
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: Glimpse-app
+          path: build/Glimpse-macos.zip

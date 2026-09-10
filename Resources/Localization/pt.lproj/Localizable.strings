@@ -1,0 +1,153 @@
+/* Glimpse - Português */
+
+/* MARK: Menu bar */
+"menu.take_screenshot"        = "Capturar tela";
+"menu.record_screen"          = "Gravar tela";
+"menu.stop_recording"         = "Parar gravação";
+"menu.cancel_recording"       = "Cancelar gravação";
+"menu.open_app"               = "Abrir o Glimpse";
+"menu.preferences"            = "Preferências…";
+"menu.about"                  = "Sobre o Glimpse";
+"menu.quit_app"               = "Encerrar o Glimpse";
+"menu.quit"                   = "Encerrar";
+"menu.main"                   = "Menu principal";
+
+/* MARK: Capture modes */
+"mode.normal"                 = "Normal";
+"mode.normal.help"            = "Gravar uma tela ou uma janela";
+"mode.selection"              = "Seleção";
+"mode.selection.help"         = "Gravar uma parte da tela";
+
+/* MARK: Audio / pointer switches */
+"toggle.desktop_audio.enable"  = "Ativar o áudio do sistema";
+"toggle.desktop_audio.disable" = "Desativar o áudio do sistema";
+"toggle.microphone.enable"     = "Ativar o microfone";
+"toggle.microphone.disable"    = "Desativar o microfone";
+"toggle.microphone.locked"     = "Ative o microfone antes de começar para poder usá-lo aqui";
+"toggle.pointer.show"          = "Mostrar o cursor";
+"toggle.pointer.hide"          = "Ocultar o cursor";
+
+/* MARK: Main window */
+"main.record"                 = "Gravar";
+"main.cancel"                 = "Cancelar";
+"main.stop"                   = "Parar";
+"main.start_recording.help"   = "Iniciar a gravação";
+"main.stop_recording.help"    = "Parar a gravação";
+"main.recording_in"           = "Gravação em…";
+"main.recording"              = "Gravando";
+"main.flushing"               = "Salvando…";
+"main.screenshot.help"        = "Capturar a tela (%@)";
+"main.profile"                = "%1$@ • %2$d FPS";
+"window.main.title"           = "Glimpse";
+"window.preferences.title"    = "Preferências";
+"alert.capture_failed"        = "Falha na captura";
+"error.folder_unavailable" = "Não foi possível abrir a pasta. Ela pode estar num disco que já não está ligado. Escolhe outra nas Preferências.";
+"key.space"                   = "Espaço";
+"common.ok"                   = "OK";
+"common.close"                = "Fechar";
+
+/* MARK: Capture overlay */
+"snip.rectangle"              = "Retângulo";
+"snip.window"                 = "Janela";
+"snip.fullscreen"             = "Tela cheia";
+"snip.photo"                  = "Captura";
+"snip.video"                  = "Gravar";
+"overlay.hint.rectangle"      = "Arraste para selecionar uma área e pressione Return";
+"overlay.hint.record_area"    = "Arraste para selecionar a área que quer gravar";
+"overlay.hint.window"         = "Clique em uma janela, ou passe o cursor sobre ela e pressione Return";
+"overlay.hint.fullscreen"     = "Clique para capturar esta tela, ou pressione Return";
+"overlay.hint.escape"         = "Esc para cancelar";
+"overlay.hint.format"         = "%1$@  ·  %2$@";
+"overlay.delay.help"          = "Atraso antes da captura";
+"overlay.delay.none"          = "Sem atraso";
+"overlay.delay.seconds"       = "%d segundos";
+"overlay.capture"             = "Capturar";
+"overlay.capture.help"        = "Capturar a tela (Return)";
+"overlay.record.help"         = "Iniciar a gravação (Return)";
+"overlay.select_area"         = "Selecione a área que quer gravar";
+"overlay.cancel.help"         = "Cancelar (Esc)";
+
+/* MARK: Recording HUD */
+"hud.recording_in"            = "Gravação em %d";
+"hud.cancel"                  = "Cancelar";
+"hud.saving"                  = "Salvando…";
+"hud.stop"                    = "Parar";
+"hud.stop.help"               = "Parar a gravação (%@)";
+
+/* MARK: Capture preview */
+"preview.screenshot_saved"    = "Captura salva";
+"preview.recording_saved"     = "Gravação de tela salva";
+"preview.size"                = "%1$d × %2$d";
+"preview.size_copied"         = "%1$d × %2$d, copiada para a área de transferência";
+"preview.open"                = "Abrir";
+"preview.show_in_finder"      = "Mostrar no Finder";
+
+/* MARK: Preferences */
+"prefs.general"               = "Geral";
+"prefs.delay_seconds"         = "Atraso (segundos)";
+"prefs.recordings_folder"     = "Pasta das gravações";
+"prefs.screenshots_folder"    = "Pasta das capturas";
+"prefs.show_preview"          = "Mostrar a pré-visualização após a captura";
+"prefs.choose"                = "Escolher…";
+
+"prefs.language"              = "Idioma";
+"prefs.language.picker"       = "Idioma da interface";
+"prefs.language.system"       = "Idioma do sistema";
+"prefs.language.footer"       = "A mudança de idioma entra em vigor ao reiniciar o app.";
+"prefs.language.restart"      = "Reiniciar agora";
+
+"prefs.audio"                 = "Áudio";
+"prefs.echo_cancellation"     = "Cancelamento de eco para o microfone";
+"prefs.echo_cancellation.footer" = "Usa o processador de voz do sistema para que o som que sai das caixas não seja captado outra vez pelo microfone. Vale quando o microfone está ligado no início da gravação; custa cerca de 10% de CPU durante a gravação.";
+
+"prefs.video"                 = "Vídeo";
+"prefs.format"                = "Formato";
+"prefs.quality" = "Qualidade";
+"prefs.quality.high" = "Alta";
+"prefs.quality.balanced" = "Equilibrada";
+"prefs.quality.small" = "Ficheiros leves";
+"prefs.quality.footer" = "O conteúdo do ecrã comprime bem: Equilibrada é quase indistinguível de Alta e ocupa cerca de um terço menos. Com a mesma qualidade, o HEVC ocupa ainda menos do que o H.264.";
+"prefs.frame_rate"            = "Taxa de quadros";
+"prefs.fps"                   = "%d FPS";
+
+"prefs.screenshots"           = "Capturas de tela";
+"prefs.copy_clipboard"        = "Copiar para a área de transferência";
+"prefs.include_pointer"       = "Incluir o cursor";
+"prefs.shutter_sound"         = "Reproduzir o som do obturador";
+
+"prefs.shortcuts"             = "Atalhos de teclado";
+"prefs.shortcut.screenshot"   = "Capturar tela";
+"prefs.shortcut.record"       = "Iniciar / parar a gravação";
+"prefs.shortcut.press_keys"   = "Pressione as teclas…";
+"prefs.shortcut.unavailable"  = "Outro app já usa este atalho, então ele não vai funcionar";
+"prefs.shortcut.needs_modifier" = "Adiciona ⌘, ⌃ ou ⌥. Uma tecla sozinha, ou só com ⇧, seria capturada em todas as apps.";
+"prefs.shortcuts.footer"      = "Para assumir ⌘⇧3 / ⌘⇧4 / ⌘⇧5, desative antes os atalhos do sistema em Ajustes do Sistema → Teclado → Atalhos de Teclado → Capturas de Tela.";
+
+/* MARK: Permissions */
+"perm.screen.title"           = "É preciso a permissão de gravação de tela";
+"perm.screen.body"            = "Autorize o Glimpse em Ajustes do Sistema → Privacidade e Segurança → Gravação do Áudio do Sistema e da Tela. O macOS aplica a mudança apenas depois que o app é reaberto.";
+"perm.open_settings"          = "Abrir os Ajustes do Sistema";
+"perm.relaunch"               = "Reiniciar o app";
+"perm.cancel"                 = "Cancelar";
+
+/* MARK: Errors */
+"error.display_not_found"     = "Não foi possível encontrar a tela a capturar.";
+"error.screenshot_save"       = "Não foi possível salvar o arquivo da captura.";
+"error.already_running"       = "Já existe uma gravação em andamento.";
+"error.cancelled"             = "Gravação cancelada.";
+"error.stopped_by_system"     = "A gravação foi interrompida pelo sistema.";
+"error.writer_failed"         = "Não foi possível salvar o vídeo: %@";
+"error.no_microphone"         = "Nenhuma entrada de microfone disponível.";
+
+/* MARK: Pause, folders, save destination */
+"recording.pause" = "Pausar";
+"recording.resume" = "Retomar";
+"recording.paused" = "Em pausa";
+"menu.pause_recording" = "Pausar a gravação";
+"menu.resume_recording" = "Retomar a gravação";
+"menu.open_recordings" = "Abrir a pasta das gravações";
+"menu.open_screenshots" = "Abrir a pasta das capturas";
+"prefs.ask_where_to_save" = "Perguntar onde salvar";
+"prefs.ask_where_to_save.footer" = "A captura pergunta antes de ser gravada, então ao cancelar você a perde, a menos que «Copiar para a área de transferência» esteja ativo. A gravação é gravada na pasta das gravações enquanto acontece, e no fim é perguntado para onde movê-la; se cancelar, ela fica lá.";
+"preview.recording_salvaged" = "Gravação interrompida, salva";
+"prefs.shortcut.change" = "Alterar o atalho";

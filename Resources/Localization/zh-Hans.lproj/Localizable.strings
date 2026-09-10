@@ -1,0 +1,153 @@
+/* Glimpse - 简体中文 */
+
+/* MARK: Menu bar */
+"menu.take_screenshot"        = "截屏";
+"menu.record_screen"          = "录制屏幕";
+"menu.stop_recording"         = "停止录制";
+"menu.cancel_recording"       = "取消录制";
+"menu.open_app"               = "打开 Glimpse";
+"menu.preferences"            = "偏好设置…";
+"menu.about"                  = "关于 Glimpse";
+"menu.quit_app"               = "退出 Glimpse";
+"menu.quit"                   = "退出";
+"menu.main"                   = "主菜单";
+
+/* MARK: Capture modes */
+"mode.normal"                 = "常规";
+"mode.normal.help"            = "录制显示器或窗口";
+"mode.selection"              = "选区";
+"mode.selection.help"         = "录制屏幕的选定区域";
+
+/* MARK: Audio / pointer switches */
+"toggle.desktop_audio.enable"  = "开启系统声音";
+"toggle.desktop_audio.disable" = "关闭系统声音";
+"toggle.microphone.enable"     = "开启麦克风";
+"toggle.microphone.disable"    = "关闭麦克风";
+"toggle.microphone.locked"     = "请在开始录制前开启麦克风，之后才能在这里切换";
+"toggle.pointer.show"          = "显示指针";
+"toggle.pointer.hide"          = "隐藏指针";
+
+/* MARK: Main window */
+"main.record"                 = "录制";
+"main.cancel"                 = "取消";
+"main.stop"                   = "停止";
+"main.start_recording.help"   = "开始录制";
+"main.stop_recording.help"    = "停止录制";
+"main.recording_in"           = "录制倒计时…";
+"main.recording"              = "正在录制";
+"main.flushing"               = "正在保存…";
+"main.screenshot.help"        = "截屏（%@）";
+"main.profile"                = "%1$@ • %2$d FPS";
+"window.main.title"           = "Glimpse";
+"window.preferences.title"    = "偏好设置";
+"alert.capture_failed"        = "捕捉失败";
+"error.folder_unavailable" = "无法打开该文件夹。它可能位于已断开连接的磁盘上。请在偏好设置中另选一个。";
+"key.space"                   = "空格";
+"common.ok"                   = "好";
+"common.close"                = "关闭";
+
+/* MARK: Capture overlay */
+"snip.rectangle"              = "矩形";
+"snip.window"                 = "窗口";
+"snip.fullscreen"             = "全屏";
+"snip.photo"                  = "截屏";
+"snip.video"                  = "录制";
+"overlay.hint.rectangle"      = "拖动选择区域，然后按 Return 键";
+"overlay.hint.record_area"    = "拖动选择要录制的区域";
+"overlay.hint.window"         = "点按某个窗口，或将指针移到窗口上再按 Return 键";
+"overlay.hint.fullscreen"     = "点按以捕捉此屏幕，或按 Return 键";
+"overlay.hint.escape"         = "按 Esc 取消";
+"overlay.hint.format"         = "%1$@  ·  %2$@";
+"overlay.delay.help"          = "捕捉前的延迟";
+"overlay.delay.none"          = "无延迟";
+"overlay.delay.seconds"       = "%d秒";
+"overlay.capture"             = "捕捉";
+"overlay.capture.help"        = "截屏（Return 键）";
+"overlay.record.help"         = "开始录制（Return 键）";
+"overlay.select_area"         = "选择要录制的区域";
+"overlay.cancel.help"         = "取消（Esc 键）";
+
+/* MARK: Recording HUD */
+"hud.recording_in"            = "录制倒计时 %d";
+"hud.cancel"                  = "取消";
+"hud.saving"                  = "正在保存…";
+"hud.stop"                    = "停止";
+"hud.stop.help"               = "停止录制（%@）";
+
+/* MARK: Capture preview */
+"preview.screenshot_saved"    = "截屏已保存";
+"preview.recording_saved"     = "屏幕录制已保存";
+"preview.size"                = "%1$d × %2$d";
+"preview.size_copied"         = "%1$d × %2$d，已拷贝到剪贴板";
+"preview.open"                = "打开";
+"preview.show_in_finder"      = "在访达中显示";
+
+/* MARK: Preferences */
+"prefs.general"               = "通用";
+"prefs.delay_seconds"         = "延迟（秒）";
+"prefs.recordings_folder"     = "录制文件夹";
+"prefs.screenshots_folder"    = "截屏文件夹";
+"prefs.show_preview"          = "捕捉后显示预览";
+"prefs.choose"                = "选取…";
+
+"prefs.language"              = "语言";
+"prefs.language.picker"       = "界面语言";
+"prefs.language.system"       = "跟随系统";
+"prefs.language.footer"       = "语言更改将在重新启动 App 后生效。";
+"prefs.language.restart"      = "立即重新启动";
+
+"prefs.audio"                 = "声音";
+"prefs.echo_cancellation"     = "麦克风回声消除";
+"prefs.echo_cancellation.footer" = "使用系统的语音处理器，避免扬声器播放的声音被麦克风再次录进去。仅在录制开始时麦克风已开启的情况下生效；录制过程中约占用 10% 的 CPU。";
+
+"prefs.video"                 = "视频";
+"prefs.format"                = "格式";
+"prefs.quality" = "画质";
+"prefs.quality.high" = "高";
+"prefs.quality.balanced" = "均衡";
+"prefs.quality.small" = "小文件";
+"prefs.quality.footer" = "屏幕内容易于压缩：「均衡」与「高」几乎看不出差别，体积约小三分之一。同等画质下，HEVC 比 H.264 更小。";
+"prefs.frame_rate"            = "帧率";
+"prefs.fps"                   = "%d FPS";
+
+"prefs.screenshots"           = "截屏";
+"prefs.copy_clipboard"        = "拷贝到剪贴板";
+"prefs.include_pointer"       = "包含指针";
+"prefs.shutter_sound"         = "播放快门声";
+
+"prefs.shortcuts"             = "键盘快捷键";
+"prefs.shortcut.screenshot"   = "截屏";
+"prefs.shortcut.record"       = "开始 / 停止录制";
+"prefs.shortcut.press_keys"   = "请按下按键…";
+"prefs.shortcut.unavailable"  = "这个快捷键已被其他 App 占用，将不会生效";
+"prefs.shortcut.needs_modifier" = "请加上 ⌘、⌃ 或 ⌥。单独一个键，或只配 ⇧，会在所有 App 中被拦截。";
+"prefs.shortcuts.footer"      = "若要接管 ⌘⇧3 / ⌘⇧4 / ⌘⇧5，请先在系统设置 → 键盘 → 键盘快捷键 → 截屏中关闭系统快捷键。";
+
+/* MARK: Permissions */
+"perm.screen.title"           = "需要“屏幕录制”权限";
+"perm.screen.body"            = "请在系统设置 → 隐私与安全性 → 录屏与系统录音中允许 Glimpse。macOS 只有在 App 重新打开后才会应用该更改。";
+"perm.open_settings"          = "打开系统设置";
+"perm.relaunch"               = "重新启动 App";
+"perm.cancel"                 = "取消";
+
+/* MARK: Errors */
+"error.display_not_found"     = "找不到要捕捉的显示器。";
+"error.screenshot_save"       = "无法写入截屏文件。";
+"error.already_running"       = "已有录制正在进行。";
+"error.cancelled"             = "录制已取消。";
+"error.stopped_by_system"     = "录制被系统停止。";
+"error.writer_failed"         = "无法写入录制文件：%@";
+"error.no_microphone"         = "没有可用的麦克风输入。";
+
+/* MARK: Pause, folders, save destination */
+"recording.pause" = "暂停";
+"recording.resume" = "继续";
+"recording.paused" = "已暂停";
+"menu.pause_recording" = "暂停录制";
+"menu.resume_recording" = "继续录制";
+"menu.open_recordings" = "打开录制文件夹";
+"menu.open_screenshots" = "打开截屏文件夹";
+"prefs.ask_where_to_save" = "每次询问保存位置";
+"prefs.ask_where_to_save.footer" = "截屏在写入前询问，因此取消就会丢失，除非同时开启了“拷贝到剪贴板”。录制会边录边写入录制文件夹，结束后再询问要移动到哪里；取消则保留在原处。";
+"preview.recording_salvaged" = "录制提前结束，已保存";
+"prefs.shortcut.change" = "更改快捷键";

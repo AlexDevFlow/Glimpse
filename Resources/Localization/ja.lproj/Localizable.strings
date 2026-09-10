@@ -1,0 +1,153 @@
+/* Glimpse - 日本語 */
+
+/* MARK: Menu bar */
+"menu.take_screenshot"        = "スクリーンショットを撮る";
+"menu.record_screen"          = "画面を収録";
+"menu.stop_recording"         = "収録を停止";
+"menu.cancel_recording"       = "収録をキャンセル";
+"menu.open_app"               = "Glimpse を開く";
+"menu.preferences"            = "設定…";
+"menu.about"                  = "Glimpse について";
+"menu.quit_app"               = "Glimpse を終了";
+"menu.quit"                   = "終了";
+"menu.main"                   = "メインメニュー";
+
+/* MARK: Capture modes */
+"mode.normal"                 = "通常";
+"mode.normal.help"            = "ディスプレイまたはウインドウを収録";
+"mode.selection"              = "選択範囲";
+"mode.selection.help"         = "画面の選択した部分を収録";
+
+/* MARK: Audio / pointer switches */
+"toggle.desktop_audio.enable"  = "システムの音声をオン";
+"toggle.desktop_audio.disable" = "システムの音声をオフ";
+"toggle.microphone.enable"     = "マイクをオン";
+"toggle.microphone.disable"    = "マイクをオフ";
+"toggle.microphone.locked"     = "ここで切り替えるには、収録を始める前にマイクをオンにしてください";
+"toggle.pointer.show"          = "ポインタを表示";
+"toggle.pointer.hide"          = "ポインタを非表示";
+
+/* MARK: Main window */
+"main.record"                 = "収録";
+"main.cancel"                 = "キャンセル";
+"main.stop"                   = "停止";
+"main.start_recording.help"   = "収録を開始";
+"main.stop_recording.help"    = "収録を停止";
+"main.recording_in"           = "収録開始まで…";
+"main.recording"              = "収録中";
+"main.flushing"               = "保存中…";
+"main.screenshot.help"        = "スクリーンショットを撮る（%@）";
+"main.profile"                = "%1$@ • %2$d FPS";
+"window.main.title"           = "Glimpse";
+"window.preferences.title"    = "設定";
+"alert.capture_failed"        = "キャプチャに失敗しました";
+"error.folder_unavailable"    = "フォルダを開けませんでした。接続されていないディスク上にある可能性があります。設定で別のフォルダを選んでください。";
+"key.space"                   = "スペース";
+"common.ok"                   = "OK";
+"common.close"                = "閉じる";
+
+/* MARK: Capture overlay */
+"snip.rectangle"              = "長方形";
+"snip.window"                 = "ウインドウ";
+"snip.fullscreen"             = "画面全体";
+"snip.photo"                  = "スクリーンショット";
+"snip.video"                  = "収録";
+"overlay.hint.rectangle"      = "ドラッグして範囲を選び、Return キーを押します";
+"overlay.hint.record_area"    = "ドラッグして収録する範囲を選びます";
+"overlay.hint.window"         = "ウインドウをクリック、またはポインタを重ねて Return キーを押します";
+"overlay.hint.fullscreen"     = "クリックしてこの画面をキャプチャ、または Return キーを押します";
+"overlay.hint.escape"         = "esc でキャンセル";
+"overlay.hint.format"         = "%1$@  ·  %2$@";
+"overlay.delay.help"          = "キャプチャまでの待ち時間";
+"overlay.delay.none"          = "待たない";
+"overlay.delay.seconds"       = "%d 秒";
+"overlay.capture"             = "キャプチャ";
+"overlay.capture.help"        = "スクリーンショットを撮る（Return）";
+"overlay.record.help"         = "収録を開始（Return）";
+"overlay.select_area"         = "収録する範囲を選んでください";
+"overlay.cancel.help"         = "キャンセル（esc）";
+
+/* MARK: Recording HUD */
+"hud.recording_in"            = "収録開始まで %d";
+"hud.cancel"                  = "キャンセル";
+"hud.saving"                  = "保存中…";
+"hud.stop"                    = "停止";
+"hud.stop.help"               = "収録を停止（%@）";
+
+/* MARK: Capture preview */
+"preview.screenshot_saved"    = "スクリーンショットを保存しました";
+"preview.recording_saved"     = "画面収録を保存しました";
+"preview.size"                = "%1$d × %2$d";
+"preview.size_copied"         = "%1$d × %2$d、クリップボードにコピーしました";
+"preview.open"                = "開く";
+"preview.show_in_finder"      = "Finder に表示";
+
+/* MARK: Preferences */
+"prefs.general"               = "一般";
+"prefs.delay_seconds"         = "待ち時間（秒）";
+"prefs.recordings_folder"     = "収録の保存先";
+"prefs.screenshots_folder"    = "スクリーンショットの保存先";
+"prefs.show_preview"          = "キャプチャ後にプレビューを表示";
+"prefs.choose"                = "選択…";
+
+"prefs.language"              = "言語";
+"prefs.language.picker"       = "表示言語";
+"prefs.language.system"       = "システムの言語";
+"prefs.language.footer"       = "言語の変更は、App を再起動したあとに反映されます。";
+"prefs.language.restart"      = "今すぐ再起動";
+
+"prefs.audio"                 = "オーディオ";
+"prefs.echo_cancellation"     = "マイクのエコーキャンセル";
+"prefs.echo_cancellation.footer" = "システムの音声処理を使い、スピーカーから出た音がマイクに再び入らないようにします。収録開始時にマイクがオンの場合にのみ有効で、収録中に CPU を約 10% 使います。";
+
+"prefs.video"                 = "ビデオ";
+"prefs.format"                = "フォーマット";
+"prefs.quality"               = "画質";
+"prefs.quality.high"          = "高";
+"prefs.quality.balanced"      = "バランス";
+"prefs.quality.small"         = "ファイル優先";
+"prefs.quality.footer"        = "画面の内容はよく圧縮できるため、「バランス」は「高」とほとんど見分けがつかず、容量は約 3 分の 1 小さくなります。同じ画質なら HEVC は H.264 よりさらに小さくなります。";
+"prefs.frame_rate"            = "フレームレート";
+"prefs.fps"                   = "%d FPS";
+
+"prefs.screenshots"           = "スクリーンショット";
+"prefs.copy_clipboard"        = "クリップボードにコピー";
+"prefs.include_pointer"       = "ポインタを含める";
+"prefs.shutter_sound"         = "シャッター音を鳴らす";
+
+"prefs.shortcuts"             = "キーボードショートカット";
+"prefs.shortcut.screenshot"   = "スクリーンショットを撮る";
+"prefs.shortcut.record"       = "収録の開始／停止";
+"prefs.shortcut.press_keys"   = "キーを押してください…";
+"prefs.shortcut.unavailable"  = "ほかの App がこのショートカットを使っているため、動作しません";
+"prefs.shortcut.needs_modifier" = "⌘、⌃、⌥ のいずれかを加えてください。単独のキーや ⇧ だけの組み合わせは、すべての App で横取りされてしまいます。";
+"prefs.shortcuts.footer"      = "⌘⇧3 / ⌘⇧4 / ⌘⇧5 を使うには、先にシステム設定 → キーボード → キーボードショートカット → スクリーンショット でシステム側のショートカットをオフにしてください。";
+
+/* MARK: Permissions */
+"perm.screen.title"           = "画面収録の許可が必要です";
+"perm.screen.body"            = "システム設定 → プライバシーとセキュリティ → 画面収録とシステムオーディオ録音 で Glimpse を許可してください。macOS は App を開き直したあとに変更を適用します。";
+"perm.open_settings"          = "システム設定を開く";
+"perm.relaunch"               = "App を再起動";
+"perm.cancel"                 = "キャンセル";
+
+/* MARK: Errors */
+"error.display_not_found"     = "キャプチャするディスプレイが見つかりませんでした。";
+"error.screenshot_save"       = "スクリーンショットのファイルを書き出せませんでした。";
+"error.already_running"       = "すでに収録中です。";
+"error.cancelled"             = "収録をキャンセルしました。";
+"error.stopped_by_system"     = "収録がシステムによって停止されました。";
+"error.writer_failed"         = "収録を書き出せませんでした：%@";
+"error.no_microphone"         = "使用できるマイク入力がありません。";
+
+/* MARK: Pause, folders, save destination */
+"recording.pause"             = "一時停止";
+"recording.resume"            = "再開";
+"recording.paused"            = "一時停止中";
+"menu.pause_recording"        = "収録を一時停止";
+"menu.resume_recording"       = "収録を再開";
+"menu.open_recordings"        = "収録フォルダを開く";
+"menu.open_screenshots"       = "スクリーンショットフォルダを開く";
+"prefs.ask_where_to_save"     = "保存先を毎回確認";
+"prefs.ask_where_to_save.footer" = "スクリーンショットは書き出す前に確認します。キャンセルすると破棄されますが、「クリップボードにコピー」がオンなら残ります。収録は進行中に収録フォルダへ書き出され、終わってから移動先を確認します。ここでキャンセルすると、そのままの場所に残ります。";
+"preview.recording_salvaged"  = "収録が途中で終了、保存しました";
+"prefs.shortcut.change"       = "ショートカットを変更";

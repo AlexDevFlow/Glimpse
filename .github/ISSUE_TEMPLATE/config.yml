@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Known limitations
+    url: https://github.com/AlexDevFlow/Glimpse#known-limitations
+    about: Missing narration after uploading, files above 4K, microphone delay. Check here first, these are known and documented.
+  - name: Report a security problem privately
+    url: https://github.com/AlexDevFlow/Glimpse/security/advisories/new
+    about: Anything involving screen or microphone data should not go in a public issue.

@@ -1,0 +1,153 @@
+/* Glimpse - 한국어 */
+
+/* MARK: Menu bar */
+"menu.take_screenshot"        = "스크린샷 찍기";
+"menu.record_screen"          = "화면 기록";
+"menu.stop_recording"         = "기록 중단";
+"menu.cancel_recording"       = "기록 취소";
+"menu.open_app"               = "Glimpse 열기";
+"menu.preferences"            = "설정…";
+"menu.about"                  = "Glimpse에 관하여";
+"menu.quit_app"               = "Glimpse 종료";
+"menu.quit"                   = "종료";
+"menu.main"                   = "주 메뉴";
+
+/* MARK: Capture modes */
+"mode.normal"                 = "일반";
+"mode.normal.help"            = "디스플레이 또는 윈도우 기록";
+"mode.selection"              = "선택 영역";
+"mode.selection.help"         = "화면의 선택한 부분 기록";
+
+/* MARK: Audio / pointer switches */
+"toggle.desktop_audio.enable"  = "시스템 사운드 켜기";
+"toggle.desktop_audio.disable" = "시스템 사운드 끄기";
+"toggle.microphone.enable"     = "마이크 켜기";
+"toggle.microphone.disable"    = "마이크 끄기";
+"toggle.microphone.locked"     = "여기에서 전환하려면 기록을 시작하기 전에 마이크를 켜십시오";
+"toggle.pointer.show"          = "포인터 표시";
+"toggle.pointer.hide"          = "포인터 가리기";
+
+/* MARK: Main window */
+"main.record"                 = "기록";
+"main.cancel"                 = "취소";
+"main.stop"                   = "중단";
+"main.start_recording.help"   = "기록 시작";
+"main.stop_recording.help"    = "기록 중단";
+"main.recording_in"           = "기록 시작까지…";
+"main.recording"              = "기록 중";
+"main.flushing"               = "저장 중…";
+"main.screenshot.help"        = "스크린샷 찍기(%@)";
+"main.profile"                = "%1$@ • %2$d FPS";
+"window.main.title"           = "Glimpse";
+"window.preferences.title"    = "설정";
+"alert.capture_failed"        = "캡처 실패";
+"error.folder_unavailable"    = "폴더를 열 수 없습니다. 연결이 끊긴 디스크에 있을 수 있습니다. 설정에서 다른 폴더를 선택하십시오.";
+"key.space"                   = "스페이스";
+"common.ok"                   = "확인";
+"common.close"                = "닫기";
+
+/* MARK: Capture overlay */
+"snip.rectangle"              = "사각형";
+"snip.window"                 = "윈도우";
+"snip.fullscreen"             = "전체 화면";
+"snip.photo"                  = "스크린샷";
+"snip.video"                  = "기록";
+"overlay.hint.rectangle"      = "드래그하여 영역을 선택한 다음 Return 키를 누르십시오";
+"overlay.hint.record_area"    = "드래그하여 기록할 영역을 선택하십시오";
+"overlay.hint.window"         = "윈도우를 클릭하거나, 포인터를 올린 뒤 Return 키를 누르십시오";
+"overlay.hint.fullscreen"     = "클릭하여 이 화면을 캡처하거나 Return 키를 누르십시오";
+"overlay.hint.escape"         = "esc로 취소";
+"overlay.hint.format"         = "%1$@  ·  %2$@";
+"overlay.delay.help"          = "캡처까지 대기 시간";
+"overlay.delay.none"          = "대기 없음";
+"overlay.delay.seconds"       = "%d초";
+"overlay.capture"             = "캡처";
+"overlay.capture.help"        = "스크린샷 찍기(Return)";
+"overlay.record.help"         = "기록 시작(Return)";
+"overlay.select_area"         = "기록할 영역을 선택하십시오";
+"overlay.cancel.help"         = "취소(esc)";
+
+/* MARK: Recording HUD */
+"hud.recording_in"            = "기록 시작까지 %d";
+"hud.cancel"                  = "취소";
+"hud.saving"                  = "저장 중…";
+"hud.stop"                    = "중단";
+"hud.stop.help"               = "기록 중단(%@)";
+
+/* MARK: Capture preview */
+"preview.screenshot_saved"    = "스크린샷 저장됨";
+"preview.recording_saved"     = "화면 기록 저장됨";
+"preview.size"                = "%1$d × %2$d";
+"preview.size_copied"         = "%1$d × %2$d, 클립보드에 복사됨";
+"preview.open"                = "열기";
+"preview.show_in_finder"      = "Finder에서 보기";
+
+/* MARK: Preferences */
+"prefs.general"               = "일반";
+"prefs.delay_seconds"         = "대기 시간(초)";
+"prefs.recordings_folder"     = "기록 저장 폴더";
+"prefs.screenshots_folder"    = "스크린샷 저장 폴더";
+"prefs.show_preview"          = "캡처 후 미리보기 표시";
+"prefs.choose"                = "선택…";
+
+"prefs.language"              = "언어";
+"prefs.language.picker"       = "인터페이스 언어";
+"prefs.language.system"       = "시스템 언어";
+"prefs.language.footer"       = "언어 변경은 앱을 다시 시작한 뒤에 적용됩니다.";
+"prefs.language.restart"      = "지금 다시 시작";
+
+"prefs.audio"                 = "오디오";
+"prefs.echo_cancellation"     = "마이크 에코 제거";
+"prefs.echo_cancellation.footer" = "시스템 음성 처리를 사용하여 스피커에서 나온 소리가 마이크에 다시 들어가지 않도록 합니다. 기록을 시작할 때 마이크가 켜져 있는 경우에만 적용되며, 기록 중 CPU를 약 10% 사용합니다.";
+
+"prefs.video"                 = "비디오";
+"prefs.format"                = "포맷";
+"prefs.quality"               = "품질";
+"prefs.quality.high"          = "높음";
+"prefs.quality.balanced"      = "균형";
+"prefs.quality.small"         = "작은 파일";
+"prefs.quality.footer"        = "화면 내용은 잘 압축되므로 '균형'은 '높음'과 거의 구별되지 않으면서 용량이 약 3분의 1 작습니다. 같은 품질이라면 HEVC가 H.264보다 더 작습니다.";
+"prefs.frame_rate"            = "프레임 속도";
+"prefs.fps"                   = "%d FPS";
+
+"prefs.screenshots"           = "스크린샷";
+"prefs.copy_clipboard"        = "클립보드에 복사";
+"prefs.include_pointer"       = "포인터 포함";
+"prefs.shutter_sound"         = "셔터 소리 재생";
+
+"prefs.shortcuts"             = "키보드 단축키";
+"prefs.shortcut.screenshot"   = "스크린샷 찍기";
+"prefs.shortcut.record"       = "기록 시작 / 중단";
+"prefs.shortcut.press_keys"   = "키를 누르십시오…";
+"prefs.shortcut.unavailable"  = "다른 앱이 이미 이 단축키를 사용하고 있어 작동하지 않습니다";
+"prefs.shortcut.needs_modifier" = "⌘, ⌃ 또는 ⌥을 추가하십시오. 단독 키나 ⇧만 조합한 키는 모든 앱에서 가로채입니다.";
+"prefs.shortcuts.footer"      = "⌘⇧3 / ⌘⇧4 / ⌘⇧5을 사용하려면 먼저 시스템 설정 → 키보드 → 키보드 단축키 → 스크린샷에서 시스템 단축키를 끄십시오.";
+
+/* MARK: Permissions */
+"perm.screen.title"           = "화면 기록 권한이 필요합니다";
+"perm.screen.body"            = "시스템 설정 → 개인정보 보호 및 보안 → 화면 및 시스템 오디오 기록에서 Glimpse를 허용하십시오. macOS는 앱을 다시 연 뒤에만 변경 사항을 적용합니다.";
+"perm.open_settings"          = "시스템 설정 열기";
+"perm.relaunch"               = "앱 다시 시작";
+"perm.cancel"                 = "취소";
+
+/* MARK: Errors */
+"error.display_not_found"     = "캡처할 디스플레이를 찾을 수 없습니다.";
+"error.screenshot_save"       = "스크린샷 파일을 기록할 수 없습니다.";
+"error.already_running"       = "이미 기록이 진행 중입니다.";
+"error.cancelled"             = "기록이 취소되었습니다.";
+"error.stopped_by_system"     = "시스템이 기록을 중단했습니다.";
+"error.writer_failed"         = "기록을 저장할 수 없습니다: %@";
+"error.no_microphone"         = "사용할 수 있는 마이크 입력이 없습니다.";
+
+/* MARK: Pause, folders, save destination */
+"recording.pause"             = "일시 정지";
+"recording.resume"            = "다시 시작";
+"recording.paused"            = "일시 정지됨";
+"menu.pause_recording"        = "기록 일시 정지";
+"menu.resume_recording"       = "기록 다시 시작";
+"menu.open_recordings"        = "기록 폴더 열기";
+"menu.open_screenshots"       = "스크린샷 폴더 열기";
+"prefs.ask_where_to_save"     = "저장 위치 매번 묻기";
+"prefs.ask_where_to_save.footer" = "스크린샷은 저장하기 전에 묻습니다. 취소하면 버려지지만 '클립보드에 복사'가 켜져 있으면 남습니다. 기록은 진행되는 동안 기록 폴더에 저장되고, 끝난 뒤에 옮길 위치를 묻습니다. 여기에서 취소하면 그 자리에 그대로 남습니다.";
+"preview.recording_salvaged"  = "기록이 일찍 끝남, 저장됨";
+"prefs.shortcut.change"       = "단축키 변경";

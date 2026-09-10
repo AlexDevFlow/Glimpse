@@ -1,0 +1,154 @@
+/* Glimpse - English (source of truth for every other translation).
+   Keep the keys sorted by section; %@ / %d placeholders must survive translation. */
+
+/* MARK: Menu bar */
+"menu.take_screenshot"        = "Take Screenshot";
+"menu.record_screen"          = "Record Screen";
+"menu.stop_recording"         = "Stop Recording";
+"menu.cancel_recording"       = "Cancel Recording";
+"menu.open_app"               = "Open Glimpse";
+"menu.preferences"            = "Preferences…";
+"menu.about"                  = "About Glimpse";
+"menu.quit_app"               = "Quit Glimpse";
+"menu.quit"                   = "Quit";
+"menu.main"                   = "Main Menu";
+
+/* MARK: Capture modes (main window tiles) */
+"mode.normal"                 = "Normal";
+"mode.normal.help"            = "Record a display or a window";
+"mode.selection"              = "Selection";
+"mode.selection.help"         = "Record a selected part of the screen";
+
+/* MARK: Audio / pointer switches */
+"toggle.desktop_audio.enable"  = "Enable Desktop Audio";
+"toggle.desktop_audio.disable" = "Disable Desktop Audio";
+"toggle.microphone.enable"     = "Enable Microphone";
+"toggle.microphone.disable"    = "Disable Microphone";
+"toggle.microphone.locked"     = "Enable the microphone before starting to use it here";
+"toggle.pointer.show"          = "Show Pointer";
+"toggle.pointer.hide"          = "Hide Pointer";
+
+/* MARK: Main window */
+"main.record"                 = "Record";
+"main.cancel"                 = "Cancel";
+"main.stop"                   = "Stop";
+"main.start_recording.help"   = "Start Recording";
+"main.stop_recording.help"    = "Stop Recording";
+"main.recording_in"           = "Recording in…";
+"main.recording"              = "Recording";
+"main.flushing"               = "Flushing…";
+"main.screenshot.help"        = "Take a screenshot (%@)";
+"main.profile"                = "%1$@ • %2$d FPS";
+"window.main.title"           = "Glimpse";
+"window.preferences.title"    = "Preferences";
+"alert.capture_failed"        = "Capture failed";
+"error.folder_unavailable" = "The folder could not be opened. It may be on a disk that is no longer connected. Choose another one in Preferences.";
+"key.space"                   = "Space";
+"common.ok"                   = "OK";
+"common.close"                = "Close";
+
+/* MARK: Capture overlay */
+"snip.rectangle"              = "Rectangle";
+"snip.window"                 = "Window";
+"snip.fullscreen"             = "Full Screen";
+"snip.photo"                  = "Screenshot";
+"snip.video"                  = "Record";
+"overlay.hint.rectangle"      = "Drag to select an area, then press Return";
+"overlay.hint.record_area"    = "Drag to select the area to record";
+"overlay.hint.window"         = "Click a window, or hover it and press Return";
+"overlay.hint.fullscreen"     = "Click to capture this screen, or press Return";
+"overlay.hint.escape"         = "Esc to cancel";
+"overlay.hint.format"         = "%1$@  ·  %2$@";
+"overlay.delay.help"          = "Delay before capture";
+"overlay.delay.none"          = "No delay";
+"overlay.delay.seconds"       = "%d seconds";
+"overlay.capture"             = "Capture";
+"overlay.capture.help"        = "Take the screenshot (Return)";
+"overlay.record.help"         = "Start recording (Return)";
+"overlay.select_area"         = "Select the area to record";
+"overlay.cancel.help"         = "Cancel (Esc)";
+
+/* MARK: Recording HUD */
+"hud.recording_in"            = "Recording in %d";
+"hud.cancel"                  = "Cancel";
+"hud.saving"                  = "Saving…";
+"hud.stop"                    = "Stop";
+"hud.stop.help"               = "Stop Recording (%@)";
+
+/* MARK: Capture preview */
+"preview.screenshot_saved"    = "Screenshot saved";
+"preview.recording_saved"     = "Screen recording saved";
+"preview.size"                = "%1$d × %2$d";
+"preview.size_copied"         = "%1$d × %2$d, copied to clipboard";
+"preview.open"                = "Open";
+"preview.show_in_finder"      = "Show in Finder";
+
+/* MARK: Preferences */
+"prefs.general"               = "General";
+"prefs.delay_seconds"         = "Delay (Seconds)";
+"prefs.recordings_folder"     = "Recordings Folder";
+"prefs.screenshots_folder"    = "Screenshots Folder";
+"prefs.show_preview"          = "Show preview after capture";
+"prefs.choose"                = "Choose…";
+
+"prefs.language"              = "Language";
+"prefs.language.picker"       = "Interface Language";
+"prefs.language.system"       = "System Language";
+"prefs.language.footer"       = "Changing the language takes effect after the app restarts.";
+"prefs.language.restart"      = "Restart Now";
+
+"prefs.audio"                 = "Audio";
+"prefs.echo_cancellation"     = "Echo cancellation for the microphone";
+"prefs.echo_cancellation.footer" = "Uses the system voice processor so sound playing from the speakers is not picked up again by the microphone. Applies when the microphone is on at the start of a recording; costs about 10% CPU while recording.";
+
+"prefs.video"                 = "Video";
+"prefs.format"                = "Format";
+"prefs.quality" = "Quality";
+"prefs.quality.high" = "High";
+"prefs.quality.balanced" = "Balanced";
+"prefs.quality.small" = "Small files";
+"prefs.quality.footer" = "Screen content compresses well, so Balanced is close to indistinguishable from High and roughly a third smaller. HEVC is smaller again than H.264 at the same quality.";
+"prefs.frame_rate"            = "Frame Rate";
+"prefs.fps"                   = "%d FPS";
+
+"prefs.screenshots"           = "Screenshots";
+"prefs.copy_clipboard"        = "Copy to clipboard";
+"prefs.include_pointer"       = "Include pointer";
+"prefs.shutter_sound"         = "Play shutter sound";
+
+"prefs.shortcuts"             = "Keyboard Shortcuts";
+"prefs.shortcut.screenshot"   = "Take Screenshot";
+"prefs.shortcut.record"       = "Start / Stop Recording";
+"prefs.shortcut.press_keys"   = "Press keys…";
+"prefs.shortcut.unavailable"  = "Another app is already using this shortcut, so it will not work";
+"prefs.shortcut.needs_modifier" = "Add ⌘, ⌃ or ⌥. A plain key, or one with ⇧ alone, would be swallowed in every app.";
+"prefs.shortcuts.footer"      = "To take over ⌘⇧3 / ⌘⇧4 / ⌘⇧5, first turn the system shortcuts off in System Settings → Keyboard → Keyboard Shortcuts → Screenshots.";
+
+/* MARK: Permissions */
+"perm.screen.title"           = "Screen Recording permission needed";
+"perm.screen.body"            = "Allow Glimpse under System Settings → Privacy & Security → Screen & System Audio Recording. macOS applies the change only after the app is reopened.";
+"perm.open_settings"          = "Open System Settings";
+"perm.relaunch"               = "Relaunch App";
+"perm.cancel"                 = "Cancel";
+
+/* MARK: Errors */
+"error.display_not_found"     = "Could not find the display to capture.";
+"error.screenshot_save"       = "Could not write the screenshot file.";
+"error.already_running"       = "A recording is already in progress.";
+"error.cancelled"             = "Recording cancelled.";
+"error.stopped_by_system"     = "The recording was stopped by the system.";
+"error.writer_failed"         = "Could not write the recording: %@";
+"error.no_microphone"         = "No microphone input available.";
+
+/* MARK: Pause, folders, save destination */
+"recording.pause" = "Pause";
+"recording.resume" = "Resume";
+"recording.paused" = "Paused";
+"menu.pause_recording" = "Pause Recording";
+"menu.resume_recording" = "Resume Recording";
+"menu.open_recordings" = "Open Recordings Folder";
+"menu.open_screenshots" = "Open Screenshots Folder";
+"prefs.ask_where_to_save" = "Ask where to save";
+"prefs.ask_where_to_save.footer" = "A screenshot asks before it is written, so cancelling discards it unless “Copy to clipboard” is on. A recording is written to the recordings folder as it records, and you are asked where to move it once it is finished; cancelling leaves it there.";
+"preview.recording_salvaged" = "Recording ended early, saved";
+"prefs.shortcut.change" = "Change shortcut";

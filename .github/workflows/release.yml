@@ -1,0 +1,66 @@
+name: Release
+
+# Tags only. action-gh-release refuses to publish without one, so a manual run
+# would build for minutes and then fail on the last step.
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      # Otherwise the About panel keeps showing whatever version happened to be
+      # committed in Info.plist.
+      - name: Stamp the version from the tag
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString $VERSION" Resources/Info.plist
+          /usr/libexec/PlistBuddy -c "Set :CFBundleVersion ${{ github.run_number }}" Resources/Info.plist
+          echo "Building version $VERSION"
+
+      - name: Check translations
+        run: make check
+
+      - name: Unit tests
+        run: make test
+
+      - name: Build release archive
+        run: make zip
+
+      # The app is ad-hoc signed and not notarised (no paid Apple Developer
+      # account), so the release notes have to tell people how to open it.
+      - name: Publish release
+        uses: softprops/action-gh-release@efb35369e0ad2afab669f228072c1b0d510eae64 # v3.0.3
+        with:
+          files: build/Glimpse-macos.zip
+          generate_release_notes: true
+          body: |
+            Universal build (Apple silicon + Intel), macOS 15 or later.
+
+            ## Install
+
+            1. Download `Glimpse-macos.zip`, unzip it and move
+               **Glimpse.app** to your Applications folder.
+            2. This build is **not signed with an Apple Developer certificate**,
+               so macOS quarantines it. Open it once, then allow it from
+               **System Settings → Privacy & Security → Open Anyway** — that
+               keeps Gatekeeper's checks in place.
+
+               If you would rather clear the flag directly, knowing it skips the
+               notarisation check:
+
+               ```sh
+               xattr -dr com.apple.quarantine /Applications/Glimpse.app
+               ```
+            3. On first launch macOS asks for **Screen Recording** permission
+               (System Settings → Privacy & Security → Screen & System Audio
+               Recording). Reopen the app afterwards.
+
+            Prefer to build it yourself? `make install` needs nothing but the
+            Xcode Command Line Tools.

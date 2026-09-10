@@ -1,0 +1,20 @@
+name: Translation
+description: Offer a new language, or report a wrong or awkward string
+labels: [translation]
+body:
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: "Français (fr)"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: >
+        For a new language, say so. CONTRIBUTING.md explains the steps.
+        For a fix, give the key or the English text and the wording you suggest.
+    validations:
+      required: true

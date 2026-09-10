@@ -1,0 +1,153 @@
+/* Glimpse - 繁體中文 */
+
+/* MARK: Menu bar */
+"menu.take_screenshot"        = "螢幕截圖";
+"menu.record_screen"          = "錄製螢幕";
+"menu.stop_recording"         = "停止錄製";
+"menu.cancel_recording"       = "取消錄製";
+"menu.open_app"               = "打開 Glimpse";
+"menu.preferences"            = "設定…";
+"menu.about"                  = "關於 Glimpse";
+"menu.quit_app"               = "結束 Glimpse";
+"menu.quit"                   = "結束";
+"menu.main"                   = "主選單";
+
+/* MARK: Capture modes */
+"mode.normal"                 = "一般";
+"mode.normal.help"            = "錄製顯示器或視窗";
+"mode.selection"              = "選取範圍";
+"mode.selection.help"         = "錄製螢幕的選取範圍";
+
+/* MARK: Audio / pointer switches */
+"toggle.desktop_audio.enable"  = "開啟系統聲音";
+"toggle.desktop_audio.disable" = "關閉系統聲音";
+"toggle.microphone.enable"     = "開啟麥克風";
+"toggle.microphone.disable"    = "關閉麥克風";
+"toggle.microphone.locked"     = "請在開始錄製前開啟麥克風，之後才能在這裡切換";
+"toggle.pointer.show"          = "顯示指標";
+"toggle.pointer.hide"          = "隱藏指標";
+
+/* MARK: Main window */
+"main.record"                 = "錄製";
+"main.cancel"                 = "取消";
+"main.stop"                   = "停止";
+"main.start_recording.help"   = "開始錄製";
+"main.stop_recording.help"    = "停止錄製";
+"main.recording_in"           = "錄製倒數…";
+"main.recording"              = "錄製中";
+"main.flushing"               = "儲存中…";
+"main.screenshot.help"        = "螢幕截圖（%@）";
+"main.profile"                = "%1$@ • %2$d FPS";
+"window.main.title"           = "Glimpse";
+"window.preferences.title"    = "設定";
+"alert.capture_failed"        = "擷取失敗";
+"error.folder_unavailable"    = "無法打開該檔案夾。它可能位於已中斷連接的磁碟上。請在設定中另選一個。";
+"key.space"                   = "空白鍵";
+"common.ok"                   = "好";
+"common.close"                = "關閉";
+
+/* MARK: Capture overlay */
+"snip.rectangle"              = "矩形";
+"snip.window"                 = "視窗";
+"snip.fullscreen"             = "全螢幕";
+"snip.photo"                  = "螢幕截圖";
+"snip.video"                  = "錄製";
+"overlay.hint.rectangle"      = "拖移來選取範圍，然後按 Return 鍵";
+"overlay.hint.record_area"    = "拖移來選取要錄製的範圍";
+"overlay.hint.window"         = "點按視窗，或將指標移到上面並按 Return 鍵";
+"overlay.hint.fullscreen"     = "點按以擷取這個螢幕，或按 Return 鍵";
+"overlay.hint.escape"         = "按 esc 取消";
+"overlay.hint.format"         = "%1$@  ·  %2$@";
+"overlay.delay.help"          = "擷取前的延遲";
+"overlay.delay.none"          = "不延遲";
+"overlay.delay.seconds"       = "%d 秒";
+"overlay.capture"             = "擷取";
+"overlay.capture.help"        = "拍下螢幕截圖（Return）";
+"overlay.record.help"         = "開始錄製（Return）";
+"overlay.select_area"         = "請選取要錄製的範圍";
+"overlay.cancel.help"         = "取消（esc）";
+
+/* MARK: Recording HUD */
+"hud.recording_in"            = "錄製倒數 %d";
+"hud.cancel"                  = "取消";
+"hud.saving"                  = "儲存中…";
+"hud.stop"                    = "停止";
+"hud.stop.help"               = "停止錄製（%@）";
+
+/* MARK: Capture preview */
+"preview.screenshot_saved"    = "螢幕截圖已儲存";
+"preview.recording_saved"     = "螢幕錄製已儲存";
+"preview.size"                = "%1$d × %2$d";
+"preview.size_copied"         = "%1$d × %2$d，已拷貝到剪貼板";
+"preview.open"                = "打開";
+"preview.show_in_finder"      = "在 Finder 中顯示";
+
+/* MARK: Preferences */
+"prefs.general"               = "一般";
+"prefs.delay_seconds"         = "延遲（秒）";
+"prefs.recordings_folder"     = "錄製檔案夾";
+"prefs.screenshots_folder"    = "螢幕截圖檔案夾";
+"prefs.show_preview"          = "擷取後顯示預覽";
+"prefs.choose"                = "選擇…";
+
+"prefs.language"              = "語言";
+"prefs.language.picker"       = "介面語言";
+"prefs.language.system"       = "系統語言";
+"prefs.language.footer"       = "語言變更會在 App 重新啟動後生效。";
+"prefs.language.restart"      = "立即重新啟動";
+
+"prefs.audio"                 = "音訊";
+"prefs.echo_cancellation"     = "麥克風回音消除";
+"prefs.echo_cancellation.footer" = "使用系統的語音處理，避免揚聲器播放的聲音再次被麥克風收錄。僅在開始錄製時麥克風已開啟的情況下生效；錄製過程中約佔用 10% 的 CPU。";
+
+"prefs.video"                 = "視訊";
+"prefs.format"                = "格式";
+"prefs.quality"               = "品質";
+"prefs.quality.high"          = "高";
+"prefs.quality.balanced"      = "平衡";
+"prefs.quality.small"         = "檔案較小";
+"prefs.quality.footer"        = "螢幕內容容易壓縮，因此「平衡」與「高」幾乎看不出差別，容量卻小了約三分之一。在相同品質下，HEVC 又比 H.264 更小。";
+"prefs.frame_rate"            = "影格率";
+"prefs.fps"                   = "%d FPS";
+
+"prefs.screenshots"           = "螢幕截圖";
+"prefs.copy_clipboard"        = "拷貝到剪貼板";
+"prefs.include_pointer"       = "包含指標";
+"prefs.shutter_sound"         = "播放快門聲";
+
+"prefs.shortcuts"             = "鍵盤快速鍵";
+"prefs.shortcut.screenshot"   = "螢幕截圖";
+"prefs.shortcut.record"       = "開始／停止錄製";
+"prefs.shortcut.press_keys"   = "請按下按鍵…";
+"prefs.shortcut.unavailable"  = "其他 App 已經在使用這組快速鍵，因此不會生效";
+"prefs.shortcut.needs_modifier" = "請加上 ⌘、⌃ 或 ⌥。單獨一個按鍵，或只搭配 ⇧，會在所有 App 中被攔截。";
+"prefs.shortcuts.footer"      = "若要接管 ⌘⇧3 / ⌘⇧4 / ⌘⇧5，請先在系統設定 → 鍵盤 → 鍵盤快速鍵 → 螢幕截圖中關閉系統的快速鍵。";
+
+/* MARK: Permissions */
+"perm.screen.title"           = "需要螢幕錄製權限";
+"perm.screen.body"            = "請在系統設定 → 隱私權與安全性 → 螢幕與系統音訊錄製中允許 Glimpse。macOS 只有在 App 重新打開後才會套用這項更改。";
+"perm.open_settings"          = "打開系統設定";
+"perm.relaunch"               = "重新啟動 App";
+"perm.cancel"                 = "取消";
+
+/* MARK: Errors */
+"error.display_not_found"     = "找不到要擷取的顯示器。";
+"error.screenshot_save"       = "無法寫入螢幕截圖檔案。";
+"error.already_running"       = "已經有一個錄製正在進行。";
+"error.cancelled"             = "已取消錄製。";
+"error.stopped_by_system"     = "錄製被系統停止。";
+"error.writer_failed"         = "無法寫入錄製檔案：%@";
+"error.no_microphone"         = "沒有可用的麥克風輸入。";
+
+/* MARK: Pause, folders, save destination */
+"recording.pause"             = "暫停";
+"recording.resume"            = "繼續";
+"recording.paused"            = "已暫停";
+"menu.pause_recording"        = "暫停錄製";
+"menu.resume_recording"       = "繼續錄製";
+"menu.open_recordings"        = "打開錄製檔案夾";
+"menu.open_screenshots"       = "打開螢幕截圖檔案夾";
+"prefs.ask_where_to_save"     = "每次詢問儲存位置";
+"prefs.ask_where_to_save.footer" = "螢幕截圖會在寫入前詢問，取消就會捨棄，除非同時開啟「拷貝到剪貼板」。錄製在進行時會先寫入錄製檔案夾，結束後才詢問要移到哪裡；在那裡取消，檔案就留在原處。";
+"preview.recording_salvaged"  = "錄製提前結束，已儲存";
+"prefs.shortcut.change"       = "更改快速鍵";
